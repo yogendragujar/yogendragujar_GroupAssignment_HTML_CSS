@@ -1,5 +1,5 @@
 html{
-    margin: 0%;
+   margin: 0%; 
 }
 
 body{
@@ -8,6 +8,7 @@ body{
 }
 
 #headerTag h1{
+    top :0%;
     margin: 0%;
     background-color: rgba(0, 0, 0, 0.6);
     font-weight: bold;
@@ -15,13 +16,16 @@ body{
     color: white;
     text-align: center;
     /* padding: 12px; */
-    /* position: fixed; */
+    position: fixed;
+    height: 40px;
     width: 100%;
     
 }
 
+/* navigation bar */
 #navigationbar{
     margin: 0%;
+    top: 40px;
     position: fixed;
     width: 100%;
 }
@@ -41,14 +45,14 @@ a{
 }
 
 #navigationbaritems li{
-    /* list-style: none; */
     display: inline-block;
-    width: 150px;
+    width: 130px;
     /* margin-left: 20px; */
     /* margin-right: 20px; */
-    /* text-align: left; */
     padding: 5px;
+    font-size: medium;
 }
+
 
 #navigationbaritems li:hover{
     background-color: rgba(0, 0, 0, 0.4);
@@ -58,16 +62,17 @@ a{
     color:rgb(67, 180, 245);
     text-align: left;
     font-size: smaller;
+    padding: 10px;
 }
 
 .dropdown{
     margin: 0%;
     display: none;
     text-align: left;
-    max-width: 145px;
+    max-width: 130px;
     padding: 0%;
     position: absolute;
-    background-color: rgb(198, 228, 241);  
+    background-color: rgb(228, 240, 247);  
     
 }
 .imgbox{
@@ -88,14 +93,19 @@ a{
 
 .imganimation{
     display: flex;
-    margin-top: 40px;
-    width: 1000px;
-    margin-left: 200px ;
+    margin-top: 10px;
+    top: 100px;
+    /* width: 1000px; */
+    width: 100%;
+    height: 350px;
+    margin-left: -10% ;
     position: absolute;
     transform: translate(10%, 2%);
     overflow: hidden;
     z-index: -1;
     border: 2px steelblue;
+    /* border-style: double; */
+    /* border-color: 20px steelblue; */
     /* box-shadow: -1px 5px 15px black; */
 }
 
@@ -109,7 +119,8 @@ a{
 
 .slide img{
     width: 100%;
-    padding: 15px;
+    padding: 5px;
+    border: 2px solid steelblue;
 }
 
 
@@ -212,7 +223,7 @@ a{
 
 
 #copyright{ 
-    position: relative;
+    position: fixed;
     bottom: 0%;
     width: 100%;
     height: 40px;
