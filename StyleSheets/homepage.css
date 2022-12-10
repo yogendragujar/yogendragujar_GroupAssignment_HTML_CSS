@@ -161,6 +161,7 @@ a{
     align-items: center;
     justify-content: center;
     margin-left: 30px;
+    margin-bottom: 15px;
     border-radius: 12px;
     background-color: rgb(241, 240, 248);
     /* height: 345px; */
@@ -219,8 +220,8 @@ a{
 
 .diabetesproducts{
     margin-left: 20px;
+    margin-bottom: 50px;
 }
-
 
 #copyright{ 
     position: fixed;
@@ -230,5 +231,9 @@ a{
     text-align: center;
     background-color: black;
     color: white;
-    
+}
+
+#copyright h4{
+    margin-top: 10px;
+    font-size: small;
 }
